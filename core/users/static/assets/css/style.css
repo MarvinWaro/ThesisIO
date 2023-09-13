@@ -2440,5 +2440,24 @@ nav .custom-btn-signup:hover{
     max-height: 60px;
 }
 
+.main-logo{
+    max-height: 80px;
+}
+
+.logo span {
+    font-size: 26px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+}
+
+.thesis-io-logo-name{
+    font-size: 26px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 13px;
+}
+
 
 
