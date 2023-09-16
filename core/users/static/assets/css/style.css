@@ -2463,5 +2463,13 @@ nav .custom-btn-signup:hover{
 ############################################################
 
 
+.main-logo-admin{
+    max-height: 80px;
+}
+
+#main-logo-admin{
+    max-height: 60px;
+}
+
 
 

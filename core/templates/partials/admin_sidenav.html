@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Sign-in
+{% endblock %}
+
+{% block content %}
+
+    <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="dashboard">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+
+
+      <li class="nav-heading">Thesis</li>
+
+     <li class="nav-item">
+      <a class="nav-link collapsed" href="archives">
+        <i class="bi bi-person"></i>
+        <span>Archives</span>
+      </a>
+    </li><!-- End Archives Page Nav -->
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Thesis Status</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="#!">
+              <i class="bi bi-circle"></i><span>Accepted Titles</span>
+            </a>
+          </li>
+          <li>
+            <a href="#!">
+              <i class="bi bi-circle"></i><span>Rejected Titles</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Thesis Status Nav -->
+
+      <li class="nav-heading">Manage</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#!">
+          <i class="bi bi-person"></i>
+          <span>Manage Faculty</span>
+        </a>
+      </li><!-- End Manage Faculty Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#!">
+          <i class="bi bi-envelope"></i>
+          <span>Manage Group</span>
+        </a>
+      </li><!-- End Manage Group Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#!">
+          <i class="bi bi-card-list"></i>
+          <span>Manage Student</span>
+        </a>
+      </li><!-- End Manage Student Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#!">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Manage Events</span>
+        </a>
+      </li><!-- End Manage Events Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#!">
+          <i class="bi bi-dash-circle"></i>
+          <span>Manage School Year</span>
+        </a>
+      </li><!-- End Manage School Year Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+{% endblock %}
